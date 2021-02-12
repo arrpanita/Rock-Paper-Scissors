@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="284.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Server">
+   <children>
+      <ImageView fitHeight="284.0" fitWidth="280.0">
+         <image>
+            <Image url="@../pic%20backgroud/S__4268188.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="random" layoutX="95.0" layoutY="23.0" mnemonicParsing="false" onAction="#randomOn" prefHeight="47.0" prefWidth="91.0" text="RANDOM" />
+      <TextArea fx:id="show" editable="false" layoutX="36.0" layoutY="80.0" prefHeight="155.0" prefWidth="215.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextArea>
+   </children>
+</Pane>
